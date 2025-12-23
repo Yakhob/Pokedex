@@ -1,0 +1,108 @@
+body {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f8f9fa;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #0a192f;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00f6ff;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  background: #112240;
+  color: #220b0b;
+  box-shadow: 0 8px 20px rgba(96, 208, 208, 0.4);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-img-top {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: 10px auto 0;
+  display: block;
+}
+
+.card-body {
+  text-align: center;
+}
+.card-body-text{
+    text-align: center;
+    color: #00f6ff;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  margin: 0.25rem;
+  font-size: 0.85rem;
+}
+
+.btn {
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: #ffc107;
+}
+
+.detail-container {
+  background-color: #7a94b7;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  color: #631616;
+}
+
+.detail-container img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  height: auto;
+}
+
+.detail-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #00ffff;
+}
+
+.detail-section {
+  margin-top: 1rem;
+}
+
+.detail-section h4 {
+  color: #ffcb05;
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  color: #ccc;
+  font-size: 0.9rem;
+}
